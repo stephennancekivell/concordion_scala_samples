@@ -1,4 +1,4 @@
-package org.concordion.samples
+package org.stephenn.concordion_scala_samples
 
 import org.concordion.integration.junit4.ConcordionRunner
 import org.junit.runner.RunWith
