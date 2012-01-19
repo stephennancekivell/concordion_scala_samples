@@ -1,3 +1,5 @@
-sample of how to use concordion (http://concordion.org/) in a maven project.
+Sample of how to use concordion (http://concordion.org/) in a scala project.
 
-unofficial clone of the concordion-samples project from this svn repo http://concordion.googlecode.com/svn/concordion-samples/trunk at revision 490.
+This is a scala port of the concordion-samples project with extentions showing more of the concordion features.
+
+The concordion-samples project was from this svn repo http://concordion.googlecode.com/svn/concordion-samples/trunk at revision 490.
