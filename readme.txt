@@ -6,13 +6,13 @@ The concordion-samples project was from this svn repo http://concordion.googleco
 
 Added concordion samples are ports from the Concordion tutorial at http://concordion.org/Tutorial.html.
 
-DONE:
-assertEquals
-execute with object results
-
 TODO:
 set
 execute
-execute on table
+
+DONE:
+assertEquals
+execute with object results
 verify rows
 verify rows with object results
+execute on table
