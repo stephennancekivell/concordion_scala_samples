@@ -5,9 +5,7 @@ import org.junit.runner.RunWith
 
 @RunWith(classOf[ConcordionRunner])
 class executeOnATableTest {
-  
     def split(fullName:String) = {
-      val names = fullName.split(" ")
-      new result(names(0), names(1))
+      nameSplitter.splitName(fullName)
     }
 }   

@@ -5,12 +5,7 @@ import org.junit.runner.RunWith
 
 @RunWith(classOf[ConcordionRunner])
 class executingAnInstructionWithAnObjectResultTest {
-  
     def split(fullName:String) = {
-      val names = fullName.split(" ")
-      new result(names(0), names(1))
-    }
-    
-     
-}
-case class result(firstName:String, lastName:String)   
+      nameSplitter.splitName(fullName)
+    } 
+}   
