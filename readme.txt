@@ -8,11 +8,11 @@ Added concordion samples are ports from the Concordion tutorial at http://concor
 
 DONE:
 assertEquals
+execute with object results
 
 TODO:
 set
 execute
-execute with object results
 execute on table
 verify rows
 verify rows with object results
