@@ -2,6 +2,7 @@ package info.stephenn.concordion.scala_samples
 
 import org.concordion.integration.junit4.ConcordionRunner
 import org.junit.runner.RunWith
+import scala.reflect.BeanProperty
 
 @RunWith(classOf[ConcordionRunner])
 class executingAnInstructionWithAnObjectResultBeanStyleTest {
@@ -11,4 +12,4 @@ class executingAnInstructionWithAnObjectResultBeanStyleTest {
     } 
 }
 
-case class resultBeanStyle(getFirstName:String, getLastName:String)
+case class resultBeanStyle(@BeanProperty firstName:String, @BeanProperty lastName:String)
